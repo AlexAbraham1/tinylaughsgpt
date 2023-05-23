@@ -19,7 +19,7 @@ def send_tweet(tweet):
 
 
 def generate_gpt_response(model, prompt) -> str:
-    result = model.complete(prompt)
+    result = model.complete(prompt, temperature=0.8, max_tokens=1000)
     return result.text
 
 
