@@ -43,10 +43,9 @@ def run():
     model = llms.init(model='gpt-3.5-turbo')
     prompt = """
         Please write a tweet for me about the parenting struggles I have with my toddler. Tweets are limited to 250 characters.
-        The tweet should be about one of the following: meal time, bed time, school, playdates, shopping.  
+        The tweet can be me recounting a story thsat happened or it can describe a back and forth conversation I had with my toddler.
         
         In addition, please come up with a separate set of hashtags I can use along with my tweet when posting to instagram. The hashtags should be different from the original ones.
-        Note that your tweet should be different from anything you have given me in the past.
         
         Your response format should be the following
         
