@@ -61,6 +61,5 @@ def run():
     print(twitter_status)
 
 
-while __name__ == "__main__":
+if __name__ == "__main__":
     run()
-    exit()
